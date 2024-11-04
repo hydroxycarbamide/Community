@@ -33,7 +33,11 @@
         "popover_bg_color": "@\\+c",
         "popover_fg_color": "@\\+f",
         "shade_color": "@G",
-        "scrollbar_outline_color": "@b"
+        "scrollbar_outline_color": "@b",
+        "sidebar_bg_color": "@h",
+        "sidebar_fg_color": "@\\+f",
+        "sidebar_backdrop_color": "@h",
+        "sidebar_shade_color": "@H"
     },
     "palette": {
         "blue_": {

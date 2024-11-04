@@ -35,7 +35,11 @@
         "shade_color": "rgba(0, 0, 0, 0.36)",
         "scrollbar_outline_color": "rgba(0, 0, 0, 0.5)",
         "thumbnail_bg_color": "#011627",
-        "thumbnail_fg_color": "#D6DEEB"
+        "thumbnail_fg_color": "#D6DEEB",
+        "sidebar_bg_color": "#273947",
+        "sidebar_fg_color": "#D6DEEB",
+        "sidebar_backdrop_color": "#011627",
+        "sidebar_shade_color": "rgba(0, 0, 0, 0.36)"
     },
     "palette": {
         "blue_": {

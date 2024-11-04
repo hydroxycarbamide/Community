@@ -33,7 +33,11 @@
         "popover_bg_color": "#393552",
         "popover_fg_color": "#e0def4",
         "shade_color": "#393552",
-        "scrollbar_outline_color": "rgba(42, 40, 62, .5)"
+        "scrollbar_outline_color": "rgba(42, 40, 62, .5)",
+        "sidebar_bg_color": "#393552",
+        "sidebar_fg_color": "#e0def4",
+        "sidebar_backdrop_color": "@window_bg_color",
+        "sidebar_shade_color": "rgba(42, 40, 62, .4)"
     },
     "palette": {
         "blue_": {
@@ -56,7 +60,6 @@
             "3": "#ea9d34",
             "4": "#ea9d34",
             "5": "#b3751e"
-
         },
         "orange_": {
             "1": "#ebbcba",

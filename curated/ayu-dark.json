@@ -34,10 +34,12 @@
         "popover_fg_color": "#BFBDB6",
         "shade_color": "rgba(0,0,0,0.36)",
         "scrollbar_outline_color": "rgba(0,0,0,0.5)",
-        "sidebar_bg_color": "#0F131A",
-        "sidebar_backdrop_color": "#0B0E14",
+        "sidebar_bg_color": "#0B0E14",
+        "sidebar_backdrop_color": "@window_bg_color",
         "secondary_sidebar_bg_color": "#0B0E14",
-        "thumbnail_bg_color": "#0B0E14"
+        "thumbnail_bg_color": "#0B0E14",
+        "sidebar_fg_color": "#BFBDB6",
+        "sidebar_shade_color": "rgba(0, 0, 0, 0.36)"
     },
     "palette": {
         "blue_": {
