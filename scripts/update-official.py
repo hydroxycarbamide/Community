@@ -27,7 +27,7 @@ for i in os.listdir("official"): #Lists all files (and folders, but it doesn't m
     with open("official/" + i, 'r') as pa: #Go through each file
         #NOTE: There is no .json filter in the above code - be aware that if any non-json file were to be added to that folder, json.loads will likely raise an exception
         palette = json.loads(pa.read()) #Use json module to convert the file's data to a dictionary
-        themeslist[palette["name"]] = "https://github.com/GradienceTeam/Community/raw/next/official/" + i #We know where they should be located, so we just put their filenames at the end of the link, and put that whole combined string into the themeslist dictionary, with its key being the in-palette-JSON name of the palette
+        themeslist[palette["name"]] = "https://github.com/hydroxycarbamide/Community/raw/next/official/" + i #We know where they should be located, so we just put their filenames at the end of the link, and put that whole combined string into the themeslist dictionary, with its key being the in-palette-JSON name of the palette
 
 themenames = [] #Lists needs creating before you append to them, otherwise it'll UnboundLocalError
 for i in themeslist: #Get the keys of the dictionary in list format
