@@ -38,3 +38,11 @@ jobs:
       
       - name: Run the script
         run: sh scripts/generate-preset-lists.sh
+
+      - name: Push
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add official.json curated.json
+          git commit -m "ci: Generate preset list"
+          git push
