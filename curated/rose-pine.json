@@ -37,7 +37,8 @@
         "sidebar_bg_color": "#26233a",
         "sidebar_fg_color": "#e0def4",
         "sidebar_backdrop_color": "@window_bg_color",
-        "sidebar_shade_color": "rgba(33, 32, 46, 0.4)"
+        "sidebar_shade_color": "rgba(33, 32, 46, 0.4)",
+        "sidebar_border_color": "#191724"
     },
     "palette": {
         "blue_": {

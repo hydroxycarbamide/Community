@@ -31,6 +31,7 @@ directories = [
 original_variables = [
     "headerbar_bg_color",
     "headerbar_fg_color",
+    "view_bg_color",
     "headerbar_backdrop_color",
     "headerbar_shade_color"
 ]
@@ -38,6 +39,7 @@ original_variables = [
 destination_variables = [
     "sidebar_bg_color",
     "sidebar_fg_color",
+    "sidebar_border_color",
     "sidebar_backdrop_color",
     "sidebar_shade_color"
 ]

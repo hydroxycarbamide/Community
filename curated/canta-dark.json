@@ -35,7 +35,8 @@
         "scrollbar_outline_color": "rgba(0, 0, 0, 0.5)",
         "sidebar_bg_color": "#3b4342",
         "sidebar_fg_color": "#fff",
-        "sidebar_shade_color": "rgba(0, 0, 0, 0.36)"
+        "sidebar_shade_color": "rgba(0, 0, 0, 0.36)",
+        "sidebar_border_color": "#3f4544"
     },
     "palette": {
         "blue_": {
